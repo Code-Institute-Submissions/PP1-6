@@ -30,16 +30,36 @@ body {
     text-decoration: none; 
     color:black;  
 }
-
 #seperate a{
     color: maroon;
     text-transform: uppercase;
-   
-    
-    
 }
 #menu a:hover {
     background-color:#6EF9F5;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid red; 
+}
+#about {
     
+    
+    color:#6EF9F5;
+    height:700px;
+    background: url(../images/tread.jpg) no-repeat center center;
+    background-size: cover;
+}
+#about h2 {
+    color:#399E5A;
+    padding-top:40px;
+    text-decoration: underline;
+
+    
+}
+#about p {
+   
+}
+#about h4 {
+    font-size: 120%;
+    color:#399E5A;
+}
+#reasons {
+    margin-left: 20px;
 }
