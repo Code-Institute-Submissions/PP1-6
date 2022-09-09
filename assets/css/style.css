@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    
+}
+body {
+    font-family: Open Sans, sans-serif;
+}
+#home {
+    background-color: #5ABCB9;
+}
+#main {
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    
+}
+#menu  {
+    text-align: center;
+    padding-top:20px;  
+}
+
+#menu li {
+    display:inline;  
+}
+
+#menu a {
+    text-decoration: none; 
+    color:black;  
+}
+
+#seperate a{
+    color: maroon;
+    text-transform: uppercase;
+   
+    
+    
+}
+#menu a:hover {
+    background-color:#6EF9F5;
+    border-bottom: 1px solid red;
+    
+}
