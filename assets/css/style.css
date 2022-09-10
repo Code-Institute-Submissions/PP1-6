@@ -76,11 +76,13 @@ body {
     
     float:left;
     text-align: center;
+    
 
 }
 #class1 img{
     height:200x;
     width:300px;
+    border:solid 3px #399E5A;
  
     
 }
@@ -96,6 +98,7 @@ body {
 #class2 img{
     height:200x;
     width:300px;
+    border:solid 3px #399E5A;
  
     
 }
@@ -111,6 +114,7 @@ body {
 #class3 img{
     height:200x;
     width:300px;
+    border:solid 3px #399E5A;
  
     
 }
@@ -125,6 +129,21 @@ body {
 #class4 img{
     height:200x;
     width:300px;
+    border:solid 3px #399E5A;
  
     
+}
+#contact {
+    text-align: center;
+    
+}
+#contact-form {
+    
+    height:400px;
+    width:400px;
+    
+    color: black ;
+    border: solid 2px black;
+    margin:0 auto;
+  
 }
