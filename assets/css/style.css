@@ -71,6 +71,10 @@ body {
     font-size: 30px;
     color:black;
 }
+#classes-section1 {
+    height:1000px
+
+}
 #class1{
     height:500px;
     width:25%;
@@ -156,9 +160,7 @@ body {
 #class6 img{
     height:200x;
     width:300px;
-    border:solid 3px #399E5A;
- 
-    
+    border:solid 3px #399E5A;  
 }
 #class7{
     height:500px;
@@ -185,8 +187,32 @@ body {
     width:300px;
     border:solid 3px #399E5A;    
 }
+
+#sign-up-section{
+  
+    height:600px;
+    border:2px solid black;
+   
+}
+#sign-up {
+    
+    text-align: center;
+    height:600px;
+    width:400px;
+    background-color: #399E5A;
+    
+    color: black ;
+    border: solid 2px black;
+    margin:0 auto;
+   
+  
+}
+
+
 #contact {
-   margin-top:0px;
+    margin-top:5px;
+    height:1000px;
+ 
    
 }
 #get-contact {
@@ -196,13 +222,14 @@ body {
 }
 #contact-form {
     
+    
     height:450px;
     width:400px;
     background-color: #5ABCB9;
     
     color: black ;
     border: solid 2px black;
-    margin:0 auto;
+    float:left;
   
 }
 #social-media {
