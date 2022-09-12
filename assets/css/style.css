@@ -239,7 +239,7 @@ body {
 }
 
 #contact {
-    height:800px;
+    height:1000px;
     border-bottom: solid 2px black;
 
 }
@@ -307,3 +307,11 @@ body {
     width:400px;
     border: solid 2px black;
 }
+
+@media screen and (max-width: 1300px) {
+    #home {
+        width:65%
+    }
+
+}
+    
