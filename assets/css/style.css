@@ -15,6 +15,7 @@ body {
    
 }
 #home h1 {
+    font-size: 50px
     
 }
 #main {
@@ -83,6 +84,7 @@ body {
 }
 #banner1 h2 {
     margin-top: 15px;
+    width:100%;
     
 }
 #classes-section1 {
@@ -207,7 +209,9 @@ body {
     
    
 }
+
 #banner2 {
+    width:100%;
 
     margin-top:42px;
     height:100px;
@@ -241,9 +245,12 @@ body {
 #contact {
     height:1000px;
     border-bottom: solid 2px black;
+    
 
 }
+
 #banner3 {
+    width:100%;
     height:100px;
     background-color:#5ABCB9 ;
     text-align: center;
@@ -261,7 +268,7 @@ body {
 }
 #contact-form {
    
-    margin-left:100px;
+    margin:0 auto;
     width:33%;
     height:450px;
     width:400px;
@@ -269,7 +276,7 @@ body {
    
     color: black ;
     border: solid 2px black;
-    float:left;
+    
   
 }
 #social-media {
@@ -308,10 +315,216 @@ body {
     border: solid 2px black;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
     #home {
-        width:65%
+        
+        font-size: 85%;
+        
+    }
+    #home h1 {
+       
+
     }
 
-}
+    #about {
+        font-size:85%;
+        height:500px;
+       
+    }
+    #classes-section1{
+        height:1500px;
+        
+    }
+
+   
+    #class1{
+        width:50%;
+        float:left;
+    }
+    #class2{
+        width:50%;
+        float:right;
+    }
+       
+    #class3{
+        width:50%;
+        float:left;
+    }
+    #class4{
+        width:50%;
+        float:right;
+    }
+    #class5{
+        width:50%;
+        float:left;
+    }
+    #class6{
+        width:50%;
+        float:right;
+    } 
+    #class7{
+        width:50%;
+        float:left;
+    }
+    #class8{
+        width:50%;
+        float:right;
+    }
+    #sign-up form{
+        font-size:small;
+       
+    }
+
+    #contact {
+        height:1500px;
+        text-align:center;
+
+    }
+    #contact h2 {
+        
+        
+        font-size:90%;
+    }
+    #get-contact h3{
+     
+        
+        
+        
+    }
+   
+    #contact-form {
+   
+        height:400px;
+        width:33%;
+        
+        width:350px;
+        font-size:85%
+    }
+    #map {
+        width:100%;
+        float:left;
+       
+        
+    }   
+    #social-media {
+        float:right;
+
+    }
+
     
+   
+    #map-iframe {
+        height:400px;
+        width:350px;
+        
+    }
+    
+    @media screen and (max-width: 950px) {
+        #home {
+        
+            font-size: 75%;
+            
+        }
+        #home h1 {
+           
+        }
+    
+        #about {
+            font-size:75%;
+            height:400px;
+           
+        }
+        #classes-section1{
+            height:3000px;
+            
+        }
+     
+        #class1{
+            width:100%;
+            float:left;
+        }
+        #class2{
+            width:100%;
+            float:left;
+        }
+           
+        #class3{
+            width:100%;
+            margin:0 auto;
+        }
+        #class4{
+            width:100%;
+            margin:0 auto;
+        }
+        #class5{
+            width:100%;
+            margin:0 auto;
+        }
+        #class6{
+            width:100%;
+            margin:0 auto;
+        } 
+        #class7{
+            width:100%;
+            margin:0 auto;
+        }
+        #class8{
+            width:100%;
+            margin:0 auto;
+        }
+        #sign-up-section {
+            height:650px;
+           
+        }
+        #sign-up form{
+            font-size:small;
+           
+        }
+
+        #contact {
+            height:1500px;
+            width:100%;
+            
+    
+        }
+       
+        #get-contact h3 {
+            
+            
+            text-decoration: underline;
+        }
+        
+        #contact-form {
+       
+            height:400px;
+            
+        
+            width:350px;
+            font-size:85%;
+         
+        }
+        #map {
+            width:100%;
+            margin:0 auto;  
+        }   
+        #map h3 {
+            text-decoration: underline;
+            
+        }
+        
+        #social-media {
+            width:100%;
+            margin:0 auto;
+    
+
+        }
+        #social-media h3 {
+           text-decoration: underline ;
+
+        }
+        #map-iframe {
+            height:400px;
+            width:350px;
+            
+        }
+    }
