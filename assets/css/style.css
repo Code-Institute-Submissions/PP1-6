@@ -408,7 +408,7 @@ body {
     
         #about {
             font-size:65%;
-            height:400px;
+            height:300px;
         }
 
         #banner1 {
@@ -467,7 +467,8 @@ body {
         }
 
         #sign-up-section {
-            height:650px;
+            margin-top:0px;
+            height:480px;
            
         }
         #sign-up form{
@@ -488,6 +489,7 @@ body {
             height:1500px;
             width:100%;
             margin:0 auto;
+           
         }
 
         #get-contact{
@@ -507,7 +509,8 @@ body {
 
         #map {
             width:100%;
-            margin:0 auto;  
+            margin:0 auto; 
+            margin-top:50px; 
         }   
 
         #map h3 {
