@@ -13,7 +13,7 @@ It contains information about the gym such as the services and classes it provid
 
 - This section includes the main heading and navagation bar. The navagation bar includes links to four different sections of the website. When the user hovers over one link, the background color changes to show that it is being targeted.
 
-![Header Image](assets/images/header.jpg)
+![Header Image](assets/images/heading.jpg)
 
 
 ### About section

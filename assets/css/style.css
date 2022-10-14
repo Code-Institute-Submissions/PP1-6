@@ -13,7 +13,7 @@ body {
     background-color: #5ABCB9;
    
 }
-#home h1 {
+#home h1 { 
     font-size: 50px
     
 }
@@ -29,6 +29,7 @@ body {
     text-align: center;
     padding-top:20px; 
     list-style:circle;
+    padding-bottom: 15px;
 }
 
 #menu li {
@@ -52,6 +53,7 @@ body {
     height:700px;
     background: url(../images/tread.jpg) no-repeat center center;
     background-size: cover;
+    padding-left: 15px;
 }
 #about h2 {
     margin-right:10px;
@@ -272,7 +274,7 @@ body {
 
 #sm-list a{
     color:black;
-    font-size: 110%;
+    font-size: 150%;
 }
 
 #sm-list a i {
@@ -528,7 +530,7 @@ body {
 
         #sm-list a{
             color:black;
-            font-size: 85%;
+            font-size: 30px;
         }
 
         #map-iframe {
